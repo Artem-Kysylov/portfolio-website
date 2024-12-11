@@ -1,0 +1,23 @@
+.nav__inner {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__itemsList {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav__socialsList {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav__socialsListIcon {
+    font-size: 24px;
+}
