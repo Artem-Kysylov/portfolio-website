@@ -1,3 +1,5 @@
+@import './vars.css';
+
 /* // Reset styles  */
 *,
 *:after,
@@ -54,14 +56,6 @@ input {
     width: 100%;
 }
 
-/* Style variables  */
-:root {
-  /* Colors  */
-  --black: #000000;
-  --light-black: #111111;
-  --light: #DAE5D0;
-  --soft-light: rgba(218, 229, 208, 0.8);
-}
 
 /* Global styles  */
 html {
@@ -110,4 +104,18 @@ h4 {
     font-size: 30px;
     line-height: 130%;
     text-transform: uppercase;
+}
+
+.headline {
+    font-size: 80px;
+    line-height: 130%;
+    text-transform: uppercase;
+}
+
+.headline__stroke {
+    font-size: 80px;
+    line-height: 130%;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--light);
 }

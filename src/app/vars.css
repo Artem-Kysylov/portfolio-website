@@ -1,0 +1,8 @@
+/* Style variables  */
+:root {
+    /* Colors  */
+    --black: #000000;
+    --light-black: #111111;
+    --light: #DAE5D0;
+    --soft-light: rgba(218, 229, 208, 0.8);
+  }

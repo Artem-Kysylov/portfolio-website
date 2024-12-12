@@ -1,0 +1,12 @@
+.mail__wrapper {
+    display: inline-block;
+}
+
+.mail__link {
+    font-size: 40px;
+    margin-bottom: 12px;    
+}
+
+.mail__linkUnderline {
+    border: 1px solid var(--light);
+}
