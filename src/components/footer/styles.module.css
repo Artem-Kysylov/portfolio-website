@@ -1,0 +1,29 @@
+
+
+.footer__top, .footer__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__bottom {
+    padding: 30px 0 30px 0;
+}
+
+.footer__topNavList {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer__bottomText {
+    font-size: 14px;
+    color: var(--soft-light);
+}
+
+.footer__bottomSocialsList {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
