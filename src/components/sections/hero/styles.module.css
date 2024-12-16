@@ -1,0 +1,14 @@
+.hero {
+    height: 90vh;
+}
+
+.hero__hello {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__helloText {
+    width: 216px;
+}
