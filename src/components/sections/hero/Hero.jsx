@@ -1,5 +1,6 @@
 // Imports 
 import React from 'react'
+import Image from "next/image"
 import styles from './styles.module.css'
 
 // Import components 
@@ -16,16 +17,24 @@ const Hero = () => {
             </div>
 
             <div className={styles.hero__titles}>
-              <span className='headline'>ui/ux design</span>
-              <span className='headline'>web development</span>
+              <p className='headline'>ui/ux design</p>
+              <p className={`headline ${styles.hero__titleSecond}`}>web development</p>
               <div className={styles.hero__titlesBtnWrapper}>
-                <span className='headline'>digital products</span>
+                <p className={`headline ${styles.hero__titleThird}`}>digital products</p>
                 <Button
                   text='let`s create a project'
+                  style={{width: '369px'}}
                   buttonType='filled'                  
                 />
               </div>
             </div>
+            <Image
+              className={styles.hero__img}
+              src='/hero-img.png'
+              width={835}
+              height={834}
+              alt='Artem Kysylov'
+            />
         </div>
     </section>
   )

@@ -1,5 +1,6 @@
 // Imports 
 import React from 'react'
+import Link from 'next/link'
 import classNames from 'classnames'
 import styles from './styles.module.css'
 
@@ -10,13 +11,15 @@ const Button = ({ text, style, buttonType, type }) => {
     })
 
   return (
-    <button 
-        className={buttonClass}
-        type={type}
-        style={style}
-    >
-        {text}
-    </button>
+    <Link href='/'>
+      <button 
+          className={buttonClass}
+          type={type}
+          style={style}
+      >
+          {text}
+      </button>
+    </Link>
   )
 }
 
