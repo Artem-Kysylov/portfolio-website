@@ -11,7 +11,10 @@ const Button = ({ text, style, buttonType, type }) => {
     })
 
   return (
-    <Link href='/'>
+    <Link 
+      href='/'
+      style={{width: '100%'}}
+    >
       <button 
           className={buttonClass}
           type={type}

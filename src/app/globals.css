@@ -104,6 +104,7 @@ h4 {
     font-size: 30px;
     line-height: 130%;
     text-transform: uppercase;
+    font-weight: inherit;
 }
 
 .headline {

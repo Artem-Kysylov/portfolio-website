@@ -7,7 +7,7 @@ import ProjectItem from '@/components/project-item/ProjectItem'
 
 const ProjectItems = () => {
   return (
-    <div>
+    <div className='container'>
       <ProjectItem/>
     </div>
   )

@@ -1,0 +1,31 @@
+.project__item {
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    background: var(--light-black);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.projectItem.dark {
+    flex-direction: row;
+    background: var(--light-black);
+    color: var(--light);
+}
+
+.projectItem.light {
+    flex-direction: row-reverse;
+    background: var(--light);
+    color: var(--black);
+}
+
+.project__itemContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    width: 398px;
+}
