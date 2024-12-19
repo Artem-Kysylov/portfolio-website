@@ -8,6 +8,8 @@
     transition: all 0.6s ease-in;
 }
 
+
+/* Button filled styles  */
 .button.filled {
     background-color: var(--light);
 }
@@ -17,6 +19,8 @@
     color: var(--light);
 }
 
+
+/* Button outlined styles  */
 .button.outlined {
     background-color: transparent;
     color: var(--light);
@@ -25,4 +29,16 @@
 .button.outlined:hover {
     background-color: var(--light);
     color: var(--black);
+}
+
+
+/* Button dark outlined styles  */
+.button.outlinedDark {
+    border: 1px solid var(--black);
+    color: var(--black);
+}
+
+.button.outlinedDark:hover {
+    background-color: var(--black);
+    color: var(--light);
 }

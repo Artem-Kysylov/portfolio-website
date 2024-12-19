@@ -8,6 +8,7 @@ const Button = ({ text, style, buttonType, type }) => {
     const buttonClass = classNames(styles.button, {
         [styles.filled]: buttonType === 'filled',
         [styles.outlined]: buttonType === 'outlined',
+        [styles.outlinedDark]: buttonType === 'outlinedDark',
     })
 
   return (
