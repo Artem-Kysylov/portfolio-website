@@ -2,24 +2,11 @@
     width: 100%;
     padding: 30px;
     border-radius: 10px;
-    background: var(--light-black);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-}
-
-.projectItem.dark {
-    flex-direction: row;
-    background: var(--light-black);
-    color: var(--light);
-}
-
-.projectItem.light {
-    flex-direction: row-reverse;
-    background: var(--light);
-    color: var(--black);
 }
 
 .project__itemContent {
@@ -28,4 +15,20 @@
     align-items: flex-start;
     gap: 30px;
     width: 398px;
+}
+
+.project__item.dark {
+    background-color: var(--light-black);
+}
+
+.project__item.dark .project__itemContent {
+    color: var(--light);
+}
+
+.project__item.light {
+    background-color: var(--light);
+}
+
+.project__item.light .project__itemContent {
+    color: var(--light-black);
 }

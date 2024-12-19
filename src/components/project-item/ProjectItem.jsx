@@ -7,17 +7,24 @@ import styles from './styles.module.css'
 // Import components 
 import Button from '@/components/button/Button'
 
-const ProjectItem = ({ itemType }) => {
-  const itemClass = classNames(styles.project__item, {
-    [styles.dark]: itemType === 'dark',
-    [styles.light]: itemType === 'light',
-  })
+const ProjectItem = ({ title, description, image, background  }) => {
+
 
   return (
-    <div className={itemClass}>
-      <div className={styles.project__itemContent}>
-        <h4>Project 1</h4>
-        <p>Lorem ipsum dolor sit amet consectetur. Id ac egestas lorem eget enim volutpat convallis in. Faucibus amet ornare in sagittis nisi scelerisque felis. Blandit viverra nisl mattis aliquam viverra vulputate diam egestas. Consectetur venenatis fermentum bibendum ut amet.</p>
+    <div 
+      style={{ backgroundColor: background }}
+      className={classNames(
+        styles.project__item,
+        { [styles.dark]: background === 'var(--light-black)',
+          [styles.light]: background === 'var(--light)'
+        }
+      )}
+    >
+      <div className={styles.project__itemContent}
+      
+      >
+        <h4>{title}</h4>
+        <p>{description}</p>
         <Button
           text='project link'
           buttonType='outlined' 
@@ -25,8 +32,8 @@ const ProjectItem = ({ itemType }) => {
       </div>
 
       <Image
-        src='/project-1-img.png'
-        alt='image'
+        src={image}
+        alt={title}
         width={620}
         height={376}
       />
