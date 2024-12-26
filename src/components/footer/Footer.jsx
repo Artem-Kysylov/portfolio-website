@@ -11,7 +11,7 @@ import SocilasIcon from '@/components/socials-icon/SocilasIcon'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className={styles.footer}>
       <div className="container">
         <div className={styles.footer__top}>
           <ul className={styles.footer__topNavList}>

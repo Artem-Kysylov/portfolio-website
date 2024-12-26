@@ -76,3 +76,32 @@ export const projectItems = [
         background: 'var(--light)',
     },
 ]
+
+// Services items 
+export const servicesItems = [
+    {
+        id: 1,
+        number: 1,
+        title: 'research & strategy',
+    },
+    {
+        id: 2,
+        number: 2,
+        title: 'branding identity',
+    },
+    {
+        id: 3,
+        number: 3,
+        title: 'ui/ux design',
+    },
+    {
+        id: 4,
+        number: 4,
+        title: 'website development',
+    },
+    {
+        id: 5,
+        number: 5,
+        title: 'app development',
+    },
+]

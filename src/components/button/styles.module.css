@@ -34,6 +34,7 @@
 
 /* Button dark outlined styles  */
 .button.outlinedDark {
+    background-color: transparent;
     border: 1px solid var(--black);
     color: var(--black);
 }

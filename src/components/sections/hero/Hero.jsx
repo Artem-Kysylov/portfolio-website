@@ -23,7 +23,6 @@ const Hero = () => {
                 <p className={`headline ${styles.hero__titleThird}`}>digital products</p>
                 <Button
                   text='let`s create a project'
-                  style={{width: '369px'}}
                   buttonType='filled'                  
                 />
               </div>

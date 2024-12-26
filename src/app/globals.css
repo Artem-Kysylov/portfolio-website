@@ -92,12 +92,14 @@ h2 {
     font-size: 65px;
     line-height: 130%;
     text-transform: uppercase;
+    font-weight: inherit;
 }
 
 h3 {
     font-size: 50px;
     line-height: 130%;
     text-transform: uppercase;
+    font-weight: inherit;
 }
 
 h4 {

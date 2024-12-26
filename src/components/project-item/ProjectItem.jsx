@@ -8,8 +8,6 @@ import styles from './styles.module.css'
 import Button from '@/components/button/Button'
 
 const ProjectItem = ({ title, description, image, background  }) => {
-
-
   return (
     <div 
       style={{ backgroundColor: background }}
@@ -27,7 +25,7 @@ const ProjectItem = ({ title, description, image, background  }) => {
         <p>{description}</p>
         <Button
           text='project link'
-          buttonType='outlined' 
+          buttonType = {background === 'var(--light-black)' ? 'outlined' : 'outlinedDark'}
         />
       </div>
 
