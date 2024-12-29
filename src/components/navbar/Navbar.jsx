@@ -2,8 +2,8 @@
 import React from 'react'
 import Image from "next/image"
 import styles from './styles.module.css'
-import { navItems } from '../../app/data/navData'
-import { socialsItems } from '../../app/data/navData'
+import { navItems } from '../../app/data/data'
+import { socialsItems } from '../../app/data/data'
 
 // Import components 
 import NavLink from '@/components/nav-link/NavLink'

@@ -1,0 +1,34 @@
+.project__item {
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.project__itemContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    width: 398px;
+}
+
+.project__item.dark {
+    background-color: var(--light-black);
+}
+
+.project__item.dark .project__itemContent {
+    color: var(--light);
+}
+
+.project__item.light {
+    background-color: var(--light);
+}
+
+.project__item.light .project__itemContent {
+    color: var(--light-black);
+}

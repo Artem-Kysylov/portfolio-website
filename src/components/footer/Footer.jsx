@@ -1,8 +1,8 @@
 // Imports 
 import React from 'react'
 import styles from './styles.module.css'
-import { navItems } from '../../app/data/navData'
-import { socialsItems } from '../../app/data/navData'
+import { navItems } from '../../app/data/data'
+import { socialsItems } from '../../app/data/data'
 
 // Import components 
 import MailLink from '@/components/mail-link/MailLink'
@@ -11,7 +11,7 @@ import SocilasIcon from '@/components/socials-icon/SocilasIcon'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className={styles.footer}>
       <div className="container">
         <div className={styles.footer__top}>
           <ul className={styles.footer__topNavList}>
