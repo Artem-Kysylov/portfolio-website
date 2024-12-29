@@ -8,19 +8,16 @@ import ProjectItem from '@/components/project-item/ProjectItem'
 
 const ProjectItems = () => {
   return (
-    <div className='container'>
-      <div className={styles.project__itemsWrapper}>
-        {
-          projectItems.map((project) => (
-            <ProjectItem
-              key={project.id}
-              {...project}
-            />
-          ))
-        }
-      </div>
-      
-    </div>
+    <div className={styles.project__itemsWrapper}>
+    {
+      projectItems.map((project) => (
+        <ProjectItem
+          key={project.id}
+          {...project}
+        />
+      ))
+    }
+  </div>
   )
 }
 
