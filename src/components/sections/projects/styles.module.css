@@ -1,3 +1,9 @@
 .projects__section {
     margin-bottom: 150px;
 }
+
+.projects__title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}

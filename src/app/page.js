@@ -7,6 +7,7 @@ import Projects from '@/components/sections/projects/Projects'
 import Services from '@/components/sections/services/Services'
 import Behance from '@/components/sections/behance/Behance'
 import About from '@/components/sections/about/About'
+import Contact from '@/components/sections/contact/Contact'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Services/>
       <Behance/>
       <About/>
+      <Contact/>
     </main>
   )
 }
