@@ -52,4 +52,5 @@
 .behnace__btnContainer {
     max-width: 428px;
     width: 100%;
+    padding: 0 10px;
 }
