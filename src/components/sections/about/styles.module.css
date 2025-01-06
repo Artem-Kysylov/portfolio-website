@@ -11,14 +11,35 @@
 .about__contentWrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: center;
+    gap: 15%;
 }
 
 .about__contentWrapperText {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 30px;
     max-width: 400px;
-    width: 100%;
+}
+
+.about__contentWrapperImages {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__img2 {
+    position: absolute;
+    left: 70%;
+    top: 20%;
+    z-index: 1;
+}
+
+.about__img3 {
+    position: absolute;
+    right: 60%;
+    top: 55%;
+    z-index: 1;
 }

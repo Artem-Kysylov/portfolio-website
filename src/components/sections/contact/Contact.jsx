@@ -9,6 +9,7 @@ const Contact = () => {
   return (
     <section>
         <RunningTicker/>
+        contact form will be here
     </section>
   )
 }

@@ -10,7 +10,6 @@ const About = () => {
         <h2 className={styles.about__title}>about me</h2>
         <div className={styles.about__contentWrapper}>
           <div className={styles.about__contentWrapperImages}>
-          </div>
             <Image
               className={styles.about__img1}
               src='/about-1-img.png'
@@ -38,6 +37,7 @@ const About = () => {
               style={{objectFit: "cover"}}
               loading="lazy"
             />
+          </div>
           <div className={styles.about__contentWrapperText}>
             <p>
               Hello! My name is Artem. I have been designing for about 4 years. I am very hardworking, purposeful and responsible, 
