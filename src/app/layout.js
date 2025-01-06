@@ -9,7 +9,7 @@ import Footer from '@/components/footer/Footer'
 const generalSans = localFont({
   src: "./fonts/GeneralSans-Regular.woff2",
   variable: "--font-general-sans",
-  weight: "400",
+  weight: "300",
   subsets: ['latin'],
   display: "swap",
 })
