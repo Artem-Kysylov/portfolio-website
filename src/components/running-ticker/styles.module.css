@@ -1,0 +1,17 @@
+.runningTicker__container {
+    overflow: hidden;
+    width: 100%;
+    padding: 14px;
+    border-top: 1px solid var(--light);
+    border-bottom: 1px solid var(--light);
+    margin: 30vh 0 30vh 0;
+}
+
+
+.runningTicker__row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    white-space: nowrap;
+}
