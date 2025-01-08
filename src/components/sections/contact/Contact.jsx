@@ -8,7 +8,7 @@ import ContactForm from '@/components/contact-form/ContactForm'
 
 const Contact = () => {
   return (
-    <section>
+    <section className={styles.contact__section}>
         <RunningTicker/>
         <ContactForm/>
     </section>
