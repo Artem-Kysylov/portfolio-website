@@ -61,10 +61,6 @@ input, select, textarea {
 
 
 /* Global styles  */
-html {
-  scroll-behavior: smooth;
-}
-
 body {
     background-color: #000000;
     background-image: url('/noise-bg.png');

@@ -4,11 +4,13 @@ import styles from './styles.module.css'
 
 // Import components 
 import Button from '@/components/button/Button'
+import Popup from '@/components/popup/Popup'
 
 const ContactForm = () => {
   return (
     <div className={styles.form__container}>
-      <form className={styles.form}>
+    <Popup/>
+      {/* <form className={styles.form}>
         <div className={styles.form__inputsWrapper}>
           <input className={styles.form__input} type="text" placeholder='Full name'/>
           <input className={styles.form__input} type="email" placeholder='Email'/>
@@ -25,7 +27,7 @@ const ContactForm = () => {
               text='submit'
               buttonType='filled'  
           />
-      </form>
+      </form> */}
     </div>
   )
 }
