@@ -1,8 +1,56 @@
 .behance__section {
-    margin-bottom: 150px;
+    margin-bottom: 30vh;
 }
 
 .behance__title {
     width: 100%;
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.behance__gallery {
+    height: 175vh;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.behance__galleryWrapper {
+    position: relative;
+    top: -12.5vh;
+    height: 200vh;
+    display: flex;
+    gap: 2vw;
+    padding: 2vw;
+}
+
+.behance__column {
+    position: relative;
+    height: 100%;
+    width: 25%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    white-space: nowrap;
+}
+
+.behance__columnContainer {
+    height: 33%;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.behance__btnWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.behnace__btnContainer {
+    max-width: 428px;
+    width: 100%;
+    padding: 0 10px;
 }

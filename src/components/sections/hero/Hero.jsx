@@ -33,6 +33,7 @@ const Hero = () => {
               width={835}
               height={834}
               alt='Artem Kysylov'
+              loading="lazy"
             />
         </div>
     </section>

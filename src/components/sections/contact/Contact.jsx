@@ -4,11 +4,13 @@ import styles from './styles.module.css'
 
 // Import components 
 import RunningTicker from '@/components/running-ticker/RunningTicker'
+import ContactForm from '@/components/contact-form/ContactForm'
 
 const Contact = () => {
   return (
-    <section>
+    <section className={styles.contact__section}>
         <RunningTicker/>
+        <ContactForm/>
     </section>
   )
 }

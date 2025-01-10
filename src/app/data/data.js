@@ -105,3 +105,19 @@ export const servicesItems = [
         title: 'app development',
     },
 ]
+
+// Behance works images 
+export const behanceImages = [
+    '/behance-1-img.png',
+    '/behance-2-img.png',
+    '/behance-3-img.png',
+    '/behance-4-img.png',
+    '/behance-5-img.png',
+    '/behance-6-img.png',
+    '/behance-7-img.png',
+    '/behance-8-img.png',
+    '/behance-9-img.png',
+    '/behance-10-img.png',
+    '/behance-11-img.png',
+    '/behance-12-img.png',
+]
