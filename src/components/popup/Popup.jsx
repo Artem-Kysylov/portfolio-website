@@ -8,9 +8,9 @@ const Popup = () => {
   return (
     <div className={styles.popup__wrapper}>
         <div className={styles.popup__item}>
-            <div className={styles.popup__btn}>
+            <button className={styles.popup__btn}>
                 <IoCloseOutline size={24}/>
-            </div>
+            </button>
             <div className={styles.popup__content}>
                 <GoCheckCircleFill size={40}/>
                 <h4>thank you!</h4>
