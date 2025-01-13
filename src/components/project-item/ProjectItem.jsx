@@ -34,6 +34,7 @@ const ProjectItem = ({ title, description, image, background  }) => {
         alt={title}
         width={620}
         height={376}
+        layout='intrinsic'
       />
     </div>
   )

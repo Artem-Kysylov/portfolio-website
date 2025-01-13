@@ -101,12 +101,14 @@ h2 {
     font-weight: inherit;
 }
 
+
 h3 {
     font-size: 50px;
     line-height: 130%;
     text-transform: uppercase;
     font-weight: inherit;
 }
+
 
 h4 {
     font-size: 30px;
@@ -127,4 +129,15 @@ h4 {
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px var(--light);
+}
+
+/* Mediaqueries  */
+@media screen and (max-width: 575px) {
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
 }

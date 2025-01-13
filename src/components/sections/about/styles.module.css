@@ -1,5 +1,5 @@
 .about__section {
-    margin-bottom: 150px;
+    margin-bottom: 30vh;
 }
 
 .about__title {
@@ -42,4 +42,18 @@
     right: 70%;
     top: 55%;
     z-index: 1;
+}
+
+/* Mediaqueries  */
+@media screen and (max-width: 1000px) {
+    .about__contentWrapper {
+        flex-direction: column;
+        gap: 60px;
+    }    
+}
+
+@media screen and (max-width: 575px)  {
+    .about__img2, .about__img3 {
+        display: none;
+    }
 }
