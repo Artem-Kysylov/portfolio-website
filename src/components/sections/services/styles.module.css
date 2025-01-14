@@ -41,4 +41,26 @@
     margin-bottom: 4px;
 }
 
+/* Mediaqueries  */
+@media screen and (max-width: 1000px) {
+    .services__wrapper {
+        flex-direction: column;
+        gap: 55px;
+    }
+
+    .services__contentWrapper {
+        width: 100%;
+    }
+
+    .services__itemsList {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px)  {
+    .itemList__itemNumber {
+        font-size: 25px;
+    }
+}
+
 

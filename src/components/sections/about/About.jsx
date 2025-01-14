@@ -15,6 +15,7 @@ const About = () => {
               src='/about-1-img.png'
               width={339}
               height={453}
+              layout='intrinsic'
               alt='Artem Kysylov image-1'
               style={{objectFit: "cover"}}
               loading="lazy"
@@ -24,6 +25,7 @@ const About = () => {
               src='/about-2-img.png'
               width={225}
               height={184}
+              layout='intrinsic'
               alt='Artem Kysylov image-2'
               style={{objectFit: "cover"}}
               loading="lazy"
@@ -33,6 +35,7 @@ const About = () => {
               src='/about-3-img.png'
               width={177}
               height={237}
+              layout='intrinsic'
               alt='Artem Kysylov image-3'
               style={{objectFit: "cover"}}
               loading="lazy"

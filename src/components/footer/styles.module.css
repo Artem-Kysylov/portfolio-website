@@ -1,7 +1,3 @@
-.footer {
-    margin-top: 100px;
-}
-
 .footer__top, .footer__bottom {
     display: flex;
     align-items: center;
@@ -21,11 +17,30 @@
 .footer__bottomText {
     font-size: 14px;
     color: var(--soft-light);
+    text-align: center;
 }
 
 .footer__bottomSocialsList {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+/* Mediaqueries  */
+@media screen and (max-width: 1000px) {
+    .footer__top, .footer__bottom {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer__topNavList {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer__bottom {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 

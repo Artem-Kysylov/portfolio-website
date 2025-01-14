@@ -32,3 +32,14 @@
 .project__item.light .project__itemContent {
     color: var(--light-black);
 }
+
+/* Mediaqueries  */
+@media screen and (max-width: 1000px) {
+    .project__item {
+        flex-direction: column;
+    }
+
+    .project__itemContent {
+        width: 100%;
+    }
+}
