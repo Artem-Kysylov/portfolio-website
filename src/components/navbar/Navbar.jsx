@@ -13,7 +13,10 @@ import SocilasIcon from '@/components/socials-icon/SocilasIcon'
 const Navbar = () => {
   const [menu, setMenu] = useState(false)
 
-  const handleMenu = () => setMenu(!menu)
+  // Open and close menu function 
+  const handleMenu = () => {
+    setMenu(!menu)
+  } 
     
   
   return (
@@ -29,6 +32,10 @@ const Navbar = () => {
             />
           </div>
           <nav className={menu ? `${styles.nav__wrapper} ${styles.active}` : styles.nav__wrapper}>
+          <button className={styles.nav__closeBtn} onClick={handleMenu}>
+              Close
+            </button>
+
             <ul className={styles.nav__itemsList}>
               {
                 navItems.map((item) => (
@@ -59,9 +66,8 @@ const Navbar = () => {
           </nav>
           
           <button className={styles.nav__menuBtn} onClick={handleMenu}>
-            {menu ? 'Close' : 'Menu'}
+            Menu
           </button>
-
         </div>
       </div>
     </header>
