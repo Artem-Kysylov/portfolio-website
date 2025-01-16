@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 
 const About = () => {
   return (
-    <section className={styles.about__section}>
+    <section className={styles.about__section} id='about'>
       <div className='container'>
         <h2 className={styles.about__title}>about me</h2>
         <div className={styles.about__contentWrapper}>

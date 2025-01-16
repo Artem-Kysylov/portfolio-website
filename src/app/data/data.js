@@ -8,18 +8,18 @@ import { FaLinkedinIn } from "react-icons/fa6"
 export const navItems = [
     {
         id: 1,
-        title: 'Services',
-        anchorLink: '#Services_section',
+        title: 'Projects',
+        anchorLink: '#projects',
     },
     {
         id: 2,
-        title: 'Projects',
-        anchorLink: '#Projects_section',
+        title: 'Services',
+        anchorLink: '#services',
     },
     {
         id: 3,
         title: 'About',
-        anchorLink: '#About_section',
+        anchorLink: '#about',
     },
 ]
 

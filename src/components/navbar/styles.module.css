@@ -31,15 +31,9 @@
 }
 
 .nav__closeBtn {
-    position: absolute;
-    top: 30px;
-    right: 20px;
-    background: none;
-    border: none;
+    display: none;
     color: var(--light);
-    cursor: pointer;
-    z-index: 30;
-  }
+}
 
 .nav__menuBtn {
     display: none;
@@ -48,10 +42,6 @@
 
 /* Mediaqueries  */
 @media screen and (max-width: 768px) {
-    .no-scroll {
-        overflow: hidden;
-        height: 100%;
-      }
 
     .nav__wrapper {
         background-color: var(--light-black);
@@ -82,5 +72,14 @@
     .nav__menuBtn {
         display: block;
         z-index: 20;
+    }
+
+    .nav__closeBtn {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        cursor: pointer;
+        z-index: 30;
     }
 }
