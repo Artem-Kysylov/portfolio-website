@@ -8,7 +8,7 @@ import Button from '@/components/button/Button'
 
 const Services = () => {
   return (
-    <section className={styles.services__section}>
+    <section className={styles.services__section} id='services'>
         <div className="container">
             <h2 className={styles.services__title}>services</h2>
             <div className={styles.services__wrapper}>

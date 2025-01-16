@@ -26,7 +26,7 @@ const Behance = () => {
         <div className={styles.behnace__btnContainer}>
           <Button
             text='go to behance'
-            buttonType='filled'
+            buttonType='outlined'
           />
         </div>
       </div>
