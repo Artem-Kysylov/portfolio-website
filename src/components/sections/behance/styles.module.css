@@ -9,33 +9,43 @@
 }
 
 .behance__gallery {
+    position: relative;
+    display: flex;
     height: 175vh;
     overflow: hidden;
+    gap: 2vw;
+    padding: 2vw;
     margin-bottom: 30px;
 }
 
-.behance__galleryWrapper {
-    position: relative;
-    top: -12.5vh;
-    height: 200vh;
-    display: flex;
-    gap: 2vw;
-    padding: 2vw;
-}
 
 .behance__column {
     position: relative;
     height: 100%;
     width: 25%;
-    /* min-width: 250px; */
     display: flex;
     flex-direction: column;
     gap: 2vw;
-    white-space: nowrap;
 }
 
-.behance__columnContainer {
-    height: 33%;
+.behance__column:nth-of-type(1) {
+    top: -45%;
+}
+
+.behance__column:nth-of-type(2) {
+    top: -95%;
+}
+
+.behance__column:nth-of-type(3) {
+    top: -45%;
+}
+
+.behance__column:nth-of-type(4) {
+    top: -75%;
+}
+
+.behance__imgContainer {
+    height: 100%;
     width: 100%;
     position: relative;
     border-radius: 10px;
