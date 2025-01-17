@@ -1,6 +1,8 @@
+'use client'
 // Imports 
-import React from 'react'
+import React, { useRef } from 'react'
 import styles from './styles.module.css'
+import { useScroll } from 'framer-motion'
 
 // Import components 
 import RunningTickerRow from './RunningTickerRow'
@@ -11,10 +13,17 @@ const runningTickerItems = {
 }
 
 const RunningTicker = () => {
+  const container = useRef()
+
+  const { scrollYProgress } = useScroll({
+    target: container,
+    offset: ['start end', 'end start']
+  })
+
   return (
-    <div className={styles.runningTicker__container}>
-        <RunningTickerRow title={runningTickerItems .title} image={runningTickerItems.image} left={'-40%'}/>
-        <RunningTickerRow title={runningTickerItems.title} image={runningTickerItems.image} left={'-25%'}/>
+    <div className={styles.runningTicker__container} ref={container}>
+        <RunningTickerRow title={runningTickerItems .title} image={runningTickerItems.image} directionRow={'left'}  left={'-40%'} progress={scrollYProgress}/>
+        <RunningTickerRow title={runningTickerItems.title} image={runningTickerItems.image} directionRow={'right'}  left={'-25%'} progress={scrollYProgress}/>
     </div>
   )
 }
