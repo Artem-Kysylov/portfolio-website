@@ -1,10 +1,10 @@
 'use client'
 // Imports 
-import React, { useRef, useState, useEffect } from 'react'
+import React, { useRef } from 'react'
 import styles from './styles.module.css'
 import { useTransform, useScroll } from 'framer-motion'
-import Lenis from '@studio-freight/lenis'
 import { behanceImages } from '@/app/data/data'
+import { useWindowDimensions } from '@/hooks/useWindowDimensions'
 
 // Import components 
 import Button from '@/components/button/Button'
@@ -13,39 +13,17 @@ import BehanceGalletyColumn from './BehanceGalletyColumn'
 
 const Behance = () => {
   const gallery = useRef(null)
-  const [dimension, setDimension] = useState({ width: 0, height: 0 })
+  const { height } = useWindowDimensions()
 
   const { scrollYProgress } = useScroll({
     target: gallery,
     offset: ['start end', 'end start']
   })
 
-  const { height } = dimension
   const y = useTransform(scrollYProgress, [0, 1], [0, height * 2])
   const y2 = useTransform(scrollYProgress, [0, 1], [0, height * 3.3])
   const y3 = useTransform(scrollYProgress, [0, 1], [0, height * 1.25])
   const y4 = useTransform(scrollYProgress, [0, 1], [0, height * 3])
-
-  useEffect( () => {
-    const lenis = new Lenis()
-
-    const raf = (time) => {
-      lenis.raf(time)
-      requestAnimationFrame(raf)
-    }
-
-    const resize = () => {
-      setDimension({width: window.innerWidth, height: window.innerHeight})
-    }
-
-    window.addEventListener("resize", resize)
-    requestAnimationFrame(raf);
-    resize();
-
-    return () => {
-      window.removeEventListener("resize", resize);
-    }
-  }, [])
 
   return (
     <section className={styles.behance__section}>
