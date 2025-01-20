@@ -23,25 +23,33 @@
     max-width: 400px;
 }
 
-.about__contentWrapperImages {
+.about__images {
     position: relative;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 8vh;
 }
 
-.about__img2 {
+.about__imgContainer {
     position: absolute;
-    left: 70%;
+}
+
+.about__imgContainer:nth-of-type(1) {
+    z-index: 1;
+}
+
+.about__imgContainer:nth-of-type(2) {
+    left: 60%;
     top: 20%;
     z-index: 2;
 }
 
-.about__img3 {
-    position: absolute;
-    right: 70%;
-    top: 55%;
-    z-index: 2;
+.about__imgContainer:nth-of-type(3) {
+    right: 65%;
+    top: 75%;
+    z-index: 3;
 }
 
 /* Mediaqueries  */

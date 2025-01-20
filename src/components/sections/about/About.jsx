@@ -22,19 +22,17 @@ const About = () => {
       <div className='container'>
         <h2 className={styles.about__title}>about me</h2>
         <div className={styles.about__contentWrapper} ref={container}>
-          <div className={styles.about__contentWrapperImages}>
+          <div className={styles.about__images}>
             {
               aboutImages.map((image, index) => {
                 const y = index === 0 ? sm : index === 1 ? md : lg
 
                 return (
-                  <motion.div style={{ y }} key={`i_${index}`}>
+                  <motion.div style={{ y }} key={`i_${index}`} className={styles.about__imgContainer}>
                     <Image 
-                      className={styles[image.className]}                                       
                       src={image.src}
                       width={image.width}
                       height={image.height}
-                      layout='intrinsic'
                       alt={image.alt}
                       style={{objectFit: "cover"}}
                       loading="lazy"
