@@ -54,14 +54,23 @@
 
 /* Mediaqueries  */
 @media screen and (max-width: 1000px) {
+    .about__images {
+        margin-top: 0;
+    }
+
+    .about__imgContainer {
+        position: relative;
+    }
+
+    .about__imgContainer:nth-of-type(2) {
+        display: none;
+    }
+    
+    .about__imgContainer:nth-of-type(3) {
+        display: none;
+    }
     .about__contentWrapper {
         flex-direction: column;
         gap: 60px;
     }    
-}
-
-@media screen and (max-width: 575px)  {
-    .about__img2, .about__img3 {
-        display: none;
-    }
 }

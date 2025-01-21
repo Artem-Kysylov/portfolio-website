@@ -1,6 +1,7 @@
 // Imports 
 import React from 'react'
 import styles from './styles.module.css'
+import Image from "next/image"
 import { navItems } from '../../app/data/data'
 import { socialsItems } from '../../app/data/data'
 
@@ -15,9 +16,15 @@ const Footer = () => {
       <div className={styles.footer__inner}>
         <div className="container">
           <div className={styles.footer__top}>
-            <p className={styles.footer__topHeadline}>
-              artem kysylov
-            </p>
+            <div className={styles.footer__headlineContainer}>
+              <Image
+                className={styles.footer__headline}
+                src='/artem kysylov.svg'
+                fill
+                alt='Artem Kysylov'
+                loading="lazy"
+              />
+            </div>
             <div className={styles.footer__topContent}>
               <ul className={styles.footer__topNavList}>
                   {

@@ -33,6 +33,13 @@ const RunningTickerRow = ({ title, image, left, directionRow, progress }) => {
         alt={title}
       />
       <span className='headline__stroke'>{title}</span>
+      <Image 
+        src={image}
+        height={72}
+        width={72}
+        alt={title}
+      />
+      <span className='headline'>{title}</span>
     </motion.div>
   )
 }
