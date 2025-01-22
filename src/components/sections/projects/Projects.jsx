@@ -11,12 +11,13 @@ const Projects = () => {
     <section className={styles.projects__section} id='projects'>
       <div className='container'>
         <h2 className={styles.projects__title}>Projects</h2>
-        <div className={styles.project__itemsWrapper}>
+        <div className={styles.projects__container}>
           {
-            projectItems.map((project) => (
+            projectItems.map((project, index) => (
               <ProjectItem
-                key={project.id}
+                key={`p_${index}`}
                 {...project}
+                index={index}
               />
             ))
           }

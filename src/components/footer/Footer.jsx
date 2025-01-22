@@ -16,15 +16,6 @@ const Footer = () => {
       <div className={styles.footer__inner}>
         <div className="container">
           <div className={styles.footer__top}>
-            <div className={styles.footer__headlineContainer}>
-              <Image
-                className={styles.footer__headline}
-                src='/artem kysylov.svg'
-                fill
-                alt='Artem Kysylov'
-                loading="lazy"
-              />
-            </div>
             <div className={styles.footer__topContent}>
               <ul className={styles.footer__topNavList}>
                   {
@@ -41,7 +32,6 @@ const Footer = () => {
                 <MailLink/>
             </div>
           </div>
-
           <div className={styles.footer__bottom}>
             <span className={styles.footer__bottomText}>All right reserved. Designed and developed by Artem Kysylov</span>
             <ul className={styles.footer__bottomSocialsList}>
@@ -59,6 +49,7 @@ const Footer = () => {
               }
               </ul>
           </div>
+
         </div>
       </div>
     </footer>
