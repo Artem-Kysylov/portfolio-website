@@ -9,7 +9,6 @@ import ProjectItem from '@/components/project-item/ProjectItem'
 const Projects = () => {
   return (
     <section className={styles.projects__section} id='projects'>
-      <div className='container'>
         <h2 className={styles.projects__title}>Projects</h2>
         <div className={styles.projects__container}>
           {
@@ -22,7 +21,6 @@ const Projects = () => {
             ))
           }
         </div>
-      </div>
     </section>
   )
 }

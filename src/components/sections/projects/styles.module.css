@@ -1,5 +1,6 @@
 .projects__section {
     margin-bottom: 30vh;
+    position: relative;
 }
 
 .projects__title {
@@ -8,6 +9,7 @@
     margin-bottom: 30px;
 }
 
-/* .projects__container {
+.projects__container {
     position: relative;
-} */
+    height: calc(100vh * 4);
+}

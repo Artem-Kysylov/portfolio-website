@@ -1,13 +1,15 @@
 .project__itemContainer {
-    position: sticky;
-    top: 0;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
 }
 
 .project__item {
+    max-width: 1300px;
     width: 100%;
     height: 500px;
     padding: 30px;
@@ -18,7 +20,7 @@
     justify-content: space-between;
     gap: 30px;
     position: relative;
-    top: -25%;
+    /* top: -25%; */
     transform-origin: top;
 }
 
