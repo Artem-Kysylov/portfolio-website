@@ -4,7 +4,13 @@
 
 .mail__link {
     font-size: 40px;
-    margin-bottom: 12px;    
+    opacity: 0.5;
+    margin-bottom: 12px; 
+    transition: all 0.6s ease-in;   
+}
+
+.mail__link:hover {
+    opacity: 1;
 }
 
 @media screen and (max-width: 575px) {
