@@ -1,9 +1,3 @@
-// Imports 
-import { FaBehance } from "react-icons/fa"
-import { IoLogoGithub } from "react-icons/io"
-import { FaLinkedinIn } from "react-icons/fa6"
-
-
 // Navigation data 
 export const navItems = [
     {
@@ -28,19 +22,19 @@ export const socialsItems = [
     {
         id: 1,
         title: 'Behance',
-        icon: FaBehance,
+        icon: 'FaBehance',
         link: 'https://www.behance.net/kysylyovar7e7c',
     },
     {
         id: 2,
         title: 'Github',
-        icon: IoLogoGithub,
+        icon: 'IoLogoGithub',
         link: 'https://github.com/Artem-Kysylov',
     },
     {
         id: 3,
         title: 'Linkedin',
-        icon: FaLinkedinIn,
+        icon: 'FaLinkedinIn',
         link: 'https://github.com/Artem-Kysylov',
     },
 ]
