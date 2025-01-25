@@ -1,6 +1,7 @@
 .footer {
     position: relative;
     height: 300px;
+    background: var(--light-black);
 }
 
 .footer__inner {

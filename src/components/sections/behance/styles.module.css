@@ -67,17 +67,16 @@
 
 /* Mediaqueries  */
 @media screen and (max-width: 1000px) {
-    .behance__gallery {
-        height: 80vh;
-    }
-
     .behance__column {
-        height: 50%;
         width: 33.33%;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .behance__gallery {
+        height: 200vh;
+    }
+
     .behance__column:nth-child(n+3) {
         display: none;
     }

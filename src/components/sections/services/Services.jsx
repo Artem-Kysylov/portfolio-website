@@ -11,21 +11,6 @@ const Services = () => {
     <section className={styles.services__section} id='services'>
         <div className="container">
             <h2 className={styles.services__title}>services</h2>
-            <div className={styles.services__wrapper}>
-                <div className={styles.services__contentWrapper}>
-                    <p className={styles.services__contentWrapperText}>
-                        Lorem ipsum dolor sit amet consectetur. 
-                        Id ac egestas lorem eget enim volutpat convallis in. 
-                        Faucibus amet ornare in sagittis nisi scelerisque felis. Blandit viverra nisl mattis aliquam viverra vulputate diam egestas. 
-                        Consectetur venenatis fermentum bibendum ut amet.
-                    </p>
-
-                    <Button
-                        text='let`s create a project'
-                        buttonType='filled'
-                    />
-                </div>
-
                 <ul className={styles.services__itemsList}>
                     {servicesItems.map((item) => (
                         <li className={styles.itemList__item} key={item.id}>
@@ -34,7 +19,6 @@ const Services = () => {
                         </li>
                     ))}
                 </ul>
-            </div>
         </div>
     </section>
   )

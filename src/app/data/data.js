@@ -140,3 +140,13 @@ export const behanceImages = [
     '/behance-11-img.png',
     '/behance-12-img.png',
 ]
+
+// Hello component words 
+export const helloWords = [
+    'Hello',
+    'こんにちは ',
+    'Hola',
+    'Қайырлы күн',
+    'Guten tag',
+    'Ciao'
+]

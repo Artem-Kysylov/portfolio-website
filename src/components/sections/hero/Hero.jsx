@@ -5,13 +5,14 @@ import styles from './styles.module.css'
 
 // Import components 
 import Button from '@/components/button/Button'
+import Hello from '@/components/hello/Hello'
 
 const Hero = () => {
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero__section}>
         <div className="container">
             <div className={styles.hero__hello}>
-                <p className={`headline__stroke ${styles.hero__helloTitle}`}>Hello</p>
+              <Hello/>
                 <h1 className={styles.hero__helloText}>I`m Artem, UI/UX designer and web developer based 
                 in Odessa, Ukraine</h1>
             </div>
