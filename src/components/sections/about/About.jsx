@@ -1,45 +1,46 @@
 // Imports 
-import React from 'react'
+import React, { useRef } from 'react'
 import Image from "next/image"
 import styles from './styles.module.css'
+import { aboutImages } from '../../../app/data/data'
+import { useScroll, useTransform, motion } from 'framer-motion'
 
 const About = () => {
+  const container = useRef(null)
+
+  const { scrollYProgress } = useScroll({
+    target: container,
+    offset: ['start end', 'end start']
+  })
+
+  const sm = useTransform(scrollYProgress, [0, 1], [0, -50])
+  const md = useTransform(scrollYProgress, [0, 1], [0, -150])
+  const lg = useTransform(scrollYProgress, [0, 1], [0, -250])
+
   return (
     <section className={styles.about__section} id='about'>
       <div className='container'>
         <h2 className={styles.about__title}>about me</h2>
-        <div className={styles.about__contentWrapper}>
-          <div className={styles.about__contentWrapperImages}>
-            <Image
-              className={styles.about__img1}
-              src='/about-1-img.png'
-              width={339}
-              height={453}
-              layout='intrinsic'
-              alt='Artem Kysylov image-1'
-              style={{objectFit: "cover"}}
-              loading="lazy"
-            />
-            <Image
-              className={styles.about__img2}
-              src='/about-2-img.png'
-              width={225}
-              height={184}
-              layout='intrinsic'
-              alt='Artem Kysylov image-2'
-              style={{objectFit: "cover"}}
-              loading="lazy"
-            />
-            <Image
-              className={styles.about__img3}
-              src='/about-3-img.png'
-              width={177}
-              height={237}
-              layout='intrinsic'
-              alt='Artem Kysylov image-3'
-              style={{objectFit: "cover"}}
-              loading="lazy"
-            />
+        <div className={styles.about__contentWrapper} ref={container}>
+          <div className={styles.about__images}>
+            {
+              aboutImages.map((image, index) => {
+                const y = index === 0 ? sm : index === 1 ? md : lg
+
+                return (
+                  <motion.div style={{ y }} key={`i_${index}`} className={styles.about__imgContainer}>
+                    <Image 
+                      src={image.src}
+                      width={image.width}
+                      height={image.height}
+                      alt={image.alt}
+                      style={{objectFit: "cover"}}
+                      loading="lazy"
+                    />
+                  </motion.div>
+                )
+              })
+            }
           </div>
           <div className={styles.about__contentWrapperText}>
             <p>
