@@ -74,29 +74,29 @@ export const projectItems = [
 // Services items 
 export const servicesItems = [
     {
-        id: 1,
         number: 1,
         title: 'research & strategy',
+        src: '/research & strategy.png',
     },
     {
-        id: 2,
         number: 2,
         title: 'branding identity',
+        src: '/branding identity.png',
     },
     {
-        id: 3,
         number: 3,
         title: 'ui/ux design',
+        src: 'ui/ux design.png',
     },
     {
-        id: 4,
         number: 4,
         title: 'website development',
+        src: 'website development.png',
     },
     {
-        id: 5,
         number: 5,
         title: 'app development',
+        src: 'app development.png',
     },
 ]
 

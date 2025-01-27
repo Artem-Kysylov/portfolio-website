@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { helloWords } from '../../app/data/data'
-import { opacity } from './anim'
+import { opacity } from '../../app/anim/anim'
 
 const Hello = () => {
     const [index, setIndex] = useState(0)
