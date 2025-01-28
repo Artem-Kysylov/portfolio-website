@@ -76,17 +76,17 @@ export const servicesItems = [
     {
         number: 1,
         title: 'research & strategy',
-        src: '/research & strategy.png',
+        src: 'research & strategy.png',
     },
     {
         number: 2,
         title: 'branding identity',
-        src: '/branding identity.png',
+        src: 'branding identity.png',
     },
     {
         number: 3,
         title: 'ui/ux design',
-        src: 'ui/ux design.png',
+        src: 'ux design.png',
     },
     {
         number: 4,
