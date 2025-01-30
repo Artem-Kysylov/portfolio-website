@@ -47,6 +47,7 @@ export const projectItems = [
         description: 'Lorem ipsum dolor sit amet consectetur. Id ac egestas lorem eget enim volutpat convallis in. Faucibus amet ornare in sagittis nisi scelerisque felis. Blandit viverra nisl mattis aliquam viverra vulputate diam egestas. Consectetur venenatis fermentum bibendum ut amet.',
         image: '/project-1-img.png',
         background: 'var(--light-black)',
+        link: 'https://pozdravok.com/',
     },
     {
         id: 2,
@@ -54,6 +55,7 @@ export const projectItems = [
         description: 'Lorem ipsum dolor sit amet consectetur. Id ac egestas lorem eget enim volutpat convallis in. Faucibus amet ornare in sagittis nisi scelerisque felis. Blandit viverra nisl mattis aliquam viverra vulputate diam egestas. Consectetur venenatis fermentum bibendum ut amet.',
         image: '/project-2-img.png',
         background: 'var(--light)',
+        link: 'https://www.lcwaikiki.ua/uk-UA/UA',
     },
     {
         id: 3,
@@ -61,6 +63,7 @@ export const projectItems = [
         description: 'Lorem ipsum dolor sit amet consectetur. Id ac egestas lorem eget enim volutpat convallis in. Faucibus amet ornare in sagittis nisi scelerisque felis. Blandit viverra nisl mattis aliquam viverra vulputate diam egestas. Consectetur venenatis fermentum bibendum ut amet.',
         image: '/project-1-img.png',
         background: 'var(--light-black)',
+        link: 'https://pozdravok.com/',
     },
     {
         id: 4,
@@ -68,6 +71,7 @@ export const projectItems = [
         description: 'Lorem ipsum dolor sit amet consectetur. Id ac egestas lorem eget enim volutpat convallis in. Faucibus amet ornare in sagittis nisi scelerisque felis. Blandit viverra nisl mattis aliquam viverra vulputate diam egestas. Consectetur venenatis fermentum bibendum ut amet.',
         image: '/project-2-img.png',
         background: 'var(--light)',
+        link: 'https://www.lcwaikiki.ua/uk-UA/UA',
     },
 ]
 

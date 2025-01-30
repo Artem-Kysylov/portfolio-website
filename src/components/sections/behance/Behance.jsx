@@ -39,6 +39,9 @@ const Behance = () => {
           <Button
             text='go to behance'
             buttonType='outlined'
+            href='https://www.behance.net/kysylyovar7e7c'
+            target='_blank'
+            rel='noopener noreferrer'
           />
         </div>
       </div>

@@ -1,5 +1,6 @@
 // Imports 
 import React, { useRef, useEffect } from 'react'
+import Link from 'next/link'
 import styles from './styles.module.css'
 import { motion } from 'framer-motion'
 import gsap from 'gsap'
@@ -74,18 +75,8 @@ const Modal = ({ modal, servicesItems }) => {
             initial='initial' 
             animate={active ? "enter" : "closed"}
         >            
-        </motion.div>
-        <motion.div 
-            ref={cursorLabel} 
-            className={styles.cursorLabel} 
-            variants={scaleAnimation} 
-            initial="initial" 
-            animate={active ? "enter" : "closed"}
-        >
-        Contact Me
-        </motion.div>
-    </>
-    
+        </motion.div>           
+    </>    
   )
 }
 

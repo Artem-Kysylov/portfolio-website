@@ -8,7 +8,7 @@ import { useParallax } from '@/hooks/useParallax'
 import Button from '@/components/button/Button'
 
 const HeroTitles = () => {
-  const  yTransform  = useParallax()
+  const yTransform  = useParallax()
 
   return (
     <motion.div 
@@ -22,7 +22,8 @@ const HeroTitles = () => {
             <p className={`headline ${styles.hero__titleThird}`}>digital products</p>
             <Button
                 text='let`s create a project'
-                buttonType='filled'                  
+                buttonType='filled'
+                href='#contact'                  
             />
         </div>
   </motion.div>
