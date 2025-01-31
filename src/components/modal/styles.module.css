@@ -1,0 +1,42 @@
+.modalContainer {
+    width: 335px;
+    height: 250px;
+    position: absolute;
+    overflow: hidden;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalSlider {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: top 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.modal {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal img{
+    height: auto;
+}
+
+.cursor, .cursorLabel {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}

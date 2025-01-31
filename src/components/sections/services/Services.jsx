@@ -19,6 +19,7 @@ const Services = () => {
                     {servicesItems.map((item, index) => (
                         <ServiceItem
                             key={index}
+                            index={index}
                             title={item.title}
                             number={item.number}
                             setModal={setModal}
@@ -27,7 +28,7 @@ const Services = () => {
                 </div>
                 <Modal
                     modal={modal}
-                    services={servicesItems}
+                    servicesItems={servicesItems}
                 />
         </div>
     </section>

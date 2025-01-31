@@ -1,31 +1,28 @@
 // Imports 
-import React, { useRef } from 'react'
+import React from 'react'
 import Link from 'next/link'
 import classNames from 'classnames'
 import styles from './styles.module.css'
-import { motion } from 'framer-motion'
-import { useHandleMouse } from '@/hooks/useHandleMouse'
 
-const Button = ({ text, style, buttonType, type }) => {
+const Button = ({ text, style, buttonType, type, href, target, rel }) => {
   const buttonClass = classNames(styles.button, {
         [styles.filled]: buttonType === 'filled',
         [styles.outlined]: buttonType === 'outlined',
         [styles.outlinedDark]: buttonType === 'outlinedDark',
   })
 
-  return (
-      <Link 
-        href='/'
-        style={{width: '100%'}}
-      >
-        <button 
-            className={buttonClass}
-            type={type}
-            style={style}
-        >
-            {text}
-        </button>
-      </Link>
+  const content = (
+    <button className={buttonClass} type={type} style={style}>
+      {text}
+    </button>
+  )
+
+  return href ? (
+    <Link href={href ?? "#"} style={{ width: '100%' }} target={target} rel={rel}>
+      {content}
+    </Link>
+  ) : (
+    content
   )
 }
 

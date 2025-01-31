@@ -9,7 +9,7 @@ import styles from './styles.module.css'
 // Import components 
 import Button from '@/components/button/Button'
 
-const ProjectItem = ({ title, description, image, background, index, progress, range, targetScale  }) => {
+const ProjectItem = ({ title, description, image, background, index, link, progress, range, targetScale  }) => {
   const container = useRef(null)
 
   const { scrollYProgress } = useScroll({
@@ -37,6 +37,9 @@ const ProjectItem = ({ title, description, image, background, index, progress, r
           <Button
             text='project link'
             buttonType = {background === 'var(--light-black)' ? 'outlined' : 'outlinedDark'}
+            href={link}
+            target='_blank'
+            rel='noopener noreferrer'
           />
         </div>
         <div className={styles.project__imageContainer}>
