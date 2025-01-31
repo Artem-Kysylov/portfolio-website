@@ -8,16 +8,16 @@ import { useForm } from "react-hook-form"
 import Button from '@/components/button/Button'
 import Popup from '@/components/popup/Popup'
 
+// Formspree url https://formspree.io/f/mjkgrybj
+
 const ContactForm = () => {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm()
 
   const onSubmit = (data) => console.log(data)
-  console.log(watch("example"))
 
 
   return (
