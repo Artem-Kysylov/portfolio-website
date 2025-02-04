@@ -37,7 +37,14 @@ const HeroHello = () => {
                 {helloWords[index]}
             </motion.p>
 
-            <h1 className={styles.hero__helloText}>I`m Artem, UI/UX designer and web developer based in Odessa, Ukraine</h1>
+            <motion.h1 
+                className={styles.hero__helloText}
+                variants={opacity} 
+                initial='initial' 
+                animate='enter'
+            >
+                I`m Artem, UI/UX designer and web developer based in Odessa, Ukraine
+            </motion.h1>
         </motion.div>
   )
 }

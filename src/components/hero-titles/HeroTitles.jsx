@@ -1,6 +1,7 @@
 // Imports 
 import React from 'react'
 import styles from './styles.module.css'
+import { opacity } from '../../app/anim/anim'
 import { motion } from 'framer-motion'
 import { useParallax } from '@/hooks/useParallax'
 
@@ -15,6 +16,9 @@ const HeroTitles = () => {
       className={styles.hero__titles}
       style={{ y: yTransform }}
       transition={{ ease: "easeOut", duration: 0.5 }}
+      variants={opacity} 
+      initial='initial' 
+      animate='enter'
     >
         <p className={`headline ${styles.hero__titlFirst}`}>ui/ux design</p>
         <p className={`headline ${styles.hero__titleSecond}`}>web development</p>

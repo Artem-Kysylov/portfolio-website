@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 314px 0 110px 0;
+    z-index: 20;
 }
 
 .hero__helloText {
