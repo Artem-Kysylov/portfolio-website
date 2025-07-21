@@ -25,7 +25,7 @@
 
 ### 🚀 Live Demo
 
-[Visit Live Portfolio →](https://your-portfolio.vercel.app)
+[Visit Live Portfolio →](portfolio-website-chi-wine-75.vercel.app)
 *(Replace with your actual Vercel link)*
 
 ---
