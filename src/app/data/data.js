@@ -51,19 +51,19 @@ export const projectItems = [
     },
     {
         id: 2,
-        title: 'Growth Pulse',
-        description: 'Growth Pulse is a front-end boilerplate project for dashboards and internal tools. It features tabs for analytics, user and employee tables, and an event calendar — all presented with clean UI components and smooth theming support.',
-        image: '/project-3-img.png',
-        background: 'var(--light-black)',
-        link: 'https://growth-pulse-app-git-main-artems-projects-a5c541a3.vercel.app/signin',
-    },
-    {
-        id: 3,
         title: 'Akira Kurosawa',
         description: 'A long-read landing page about the legendary Japanese director Akira Kurosawa. This project presents his biography, books, creative process, and a detailed filmography — all wrapped in a stylish and smooth scrolling experience.',
         image: '/project-2-img.png',
         background: 'var(--light)',
         link: 'https://akira-kurosawa-longread.vercel.app/',
+    },
+    {
+        id: 3,
+        title: 'Growth Pulse',
+        description: 'Growth Pulse is a front-end boilerplate project for dashboards and internal tools. It features tabs for analytics, user and employee tables, and an event calendar — all presented with clean UI components and smooth theming support.',
+        image: '/project-3-img.png',
+        background: 'var(--light-black)',
+        link: 'https://growth-pulse-app-git-main-artems-projects-a5c541a3.vercel.app/signin',
     },
     {
         id: 4,
