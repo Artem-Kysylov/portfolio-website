@@ -63,7 +63,7 @@ export const projectItems = [
         description: 'Growth Pulse is a front-end boilerplate project for dashboards and internal tools. It features tabs for analytics, user and employee tables, and an event calendar — all presented with clean UI components and smooth theming support.',
         image: '/project-3-img.png',
         background: 'var(--light-black)',
-        link: 'https://growth-pulse-app-git-main-artems-projects-a5c541a3.vercel.app/signin',
+        link: 'https://growth-pulse-app-git-main-artems-projects-a5c541a3.vercel.app',
     },
     {
         id: 4,
