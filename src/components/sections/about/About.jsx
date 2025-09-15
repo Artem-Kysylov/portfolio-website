@@ -44,16 +44,13 @@ const About = () => {
           </div>
           <div className={styles.about__contentWrapperText}>
             <p>
-              Hello! My name is Artem. I have been designing for about 4 years. I am very hardworking, purposeful and responsible, 
-              I pay a lot of attention to details. 
-              I never stand still, always learning something new. 
-              I love creating clean, intuitive interfaces, I love typography and aesthetic functional minimalism. 
+              Hello! I'm Artem, a passionate designer with 5 years of experience and a developer with 3 years of expertise. I'm hardworking, goal-oriented, and detail-focused, always striving to create clean, intuitive, and aesthetically functional interfaces. My love for typography and minimalistic design drives my work, and I’m constantly learning to stay ahead of the curve. 
             </p>
             <p>
-              I develop with each project, I always follow the trends. 
-              I am fluent in Figma, Photoshop, Illustrator, After Effect, Principle, Protopie, Invision. 
-              I actively study Webflow, upon request I can throw off the work I have made. 
-              Have an understanding of HTML/CSS.
+              On the development side, I’m proficient in HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, SCSS, Supabase, and Firebase. I leverage artificial intelligence to accelerate code writing and streamline workflows. Additionally, I have experience setting up MCP servers, showcasing my versatility in technical setups.
+            </p>
+            <p>
+              Each project is an opportunity for growth, and I stay aligned with the latest trends to deliver modern, impactful solutions. Feel free to reach out for examples of my work!
             </p>
           </div>
         </div>

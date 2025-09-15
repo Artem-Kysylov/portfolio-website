@@ -113,20 +113,20 @@ export const aboutImages = [
         alt: 'Artem Kysylov img-1',
         className: 'about__img1',
     },
-    {
-        width: 225,
-        height: 154,
-        src: '/about-2-img.png',
-        alt: 'Artem Kysylov img-2',
-        className: 'about__img2',
-    },
-    {
-        width: 177,
-        height: 237,
-        src: '/about-3-img.png',
-        alt: 'Artem Kysylov img-3',
-        className: 'about__img3',
-    },
+    // {
+    //     width: 225,
+    //     height: 154,
+    //     src: '/about-2-img.png',
+    //     alt: 'Artem Kysylov img-2',
+    //     className: 'about__img2',
+    // },
+    // {
+    //     width: 177,
+    //     height: 237,
+    //     src: '/about-3-img.png',
+    //     alt: 'Artem Kysylov img-3',
+    //     className: 'about__img3',
+    // },
 ]
 
 // Behance works images 

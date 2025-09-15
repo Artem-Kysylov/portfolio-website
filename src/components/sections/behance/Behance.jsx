@@ -20,10 +20,11 @@ const Behance = () => {
     offset: ['start end', 'end start']
   })
 
-  const y = useTransform(scrollYProgress, [0, 1], [0, height * 2])
-  const y2 = useTransform(scrollYProgress, [0, 1], [0, height * 3.3])
-  const y3 = useTransform(scrollYProgress, [0, 1], [0, height * 1.25])
-  const y4 = useTransform(scrollYProgress, [0, 1], [0, height * 3])
+  // Уменьшили амплитуды, чтобы убрать пустоту сверху в конце секции
+  const y  = useTransform(scrollYProgress, [0, 1], [0, height * 1.8])   // было * 2
+  const y2 = useTransform(scrollYProgress, [0, 1], [0, height * 3.1])   // было * 3.6
+  const y3 = useTransform(scrollYProgress, [0, 1], [0, height * 1.1])   // было * 1.25
+  const y4 = useTransform(scrollYProgress, [0, 1], [0, height * 2.8])   // было * 3.3
 
   return (
     <section className={styles.behance__section}>

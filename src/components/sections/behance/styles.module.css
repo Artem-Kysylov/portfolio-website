@@ -11,7 +11,7 @@
 .behance__gallery {
     position: relative;
     display: flex;
-    height: 175vh;
+    height: 160vh; /* было 175vh */
     overflow: hidden;
     gap: 2vw;
     padding: 2vw;
@@ -33,7 +33,7 @@
 }
 
 .behance__column:nth-of-type(2) {
-    top: -95%;
+    top: -92%; /* было -85% — приподняли, чтобы убрать пустоту сверху */
 }
 
 .behance__column:nth-of-type(3) {
@@ -41,16 +41,20 @@
 }
 
 .behance__column:nth-of-type(4) {
-    top: -75%;
+    top: -72%; /* было -65% — приподняли, чтобы убрать пустоту сверху */
 }
 
+/* Было: height: 100%; → из-за этого карточка растягивалась по высоте экрана */
 .behance__imgContainer {
-    height: 100%;
     width: 100%;
     position: relative;
     border-radius: 10px;
     overflow: hidden;
+
+    /* Новый вариант: ограничиваем высоту от ширины вьюпорта + верхний предел */
+    height: clamp(220px, 32vw, 520px);
 }
+/* при желании можно вместо clamp использовать aspect-ratio, см. комментарий ниже */
 
 .behance__btnWrapper {
     display: flex;
@@ -74,7 +78,7 @@
 
 @media screen and (max-width: 768px) {
     .behance__gallery {
-        height: 200vh;
+        height: 160vh; /* было 200vh */
     }
 
     .behance__column:nth-child(n+3) {

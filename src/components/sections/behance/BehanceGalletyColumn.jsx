@@ -16,6 +16,8 @@ const BehanceGalletyColumn = ({ behanceImages, y }) => {
                             alt='behance-image'
                             fill
                             style={{objectFit: "cover"}}
+                            sizes="(max-width: 768px) 50vw, (max-width: 1000px) 33vw, 25vw"
+                            quality={90}
                         />
                     </div>
                 )
