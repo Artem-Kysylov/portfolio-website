@@ -47,7 +47,7 @@ const About = () => {
               I’m a Design Engineer with 5+ years in UI/UX and 3 years in engineering. I bridge the gap between high-end design and production-ready code, building clean, high-performance interfaces where motion and function are as vital as the visuals.
             </p>
             <p>
-              On the engineering side, I build scalable applications using React, Next.js, TypeScript, and Supabase. I don’t just "write code" — I architect experiences. My workflow is deeply integrated with Artificial Intelligence and custom MCP server setups, allowing me to build and ship complex products like Spendly and TableXport with incredible velocity and technical precision.
+              On the engineering side, I build scalable applications using React, Next.js, TypeScript, and Supabase. I don’t just &quot;write code&quot; — I architect experiences. My workflow is deeply integrated with Artificial Intelligence and custom MCP server setups, allowing me to build and ship complex products like Spendly and TableXport with incredible velocity and technical precision.
             </p>
             <p>
               I thrive in Founding Designer roles, taking products from a blank canvas in Figma to live deployments on Vercel. My focus is on shipping modern, scalable, and AI-integrated solutions that deliver real value. Let’s build your next big idea together.
