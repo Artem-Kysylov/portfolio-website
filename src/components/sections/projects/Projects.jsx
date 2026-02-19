@@ -24,13 +24,14 @@ const Projects = () => {
           {
             projectItems.map((project, index) => {
               const targetScale = 1 - ( (projectItems.length - index) * 0.05)
+              const rangeStart = index / projectItems.length
               return (
                 <ProjectItem
                   key={`p_${index}`}
                   {...project}
                   index={index}
                   progress={scrollYProgress}
-                  range={[index * .25, 1]}
+                  range={[rangeStart, 1]}
                   targetScale={targetScale}
                 />
               )

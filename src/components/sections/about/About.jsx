@@ -44,13 +44,13 @@ const About = () => {
           </div>
           <div className={styles.about__contentWrapperText}>
             <p>
-              Hello! I'm Artem, a passionate designer with 5 years of experience and a developer with 3 years of expertise. I'm hardworking, goal-oriented, and detail-focused, always striving to create clean, intuitive, and aesthetically functional interfaces. My love for typography and minimalistic design drives my work, and I’m constantly learning to stay ahead of the curve. 
+              I’m a Design Engineer with 5+ years in UI/UX and 3 years in engineering. I bridge the gap between high-end design and production-ready code, building clean, high-performance interfaces where motion and function are as vital as the visuals.
             </p>
             <p>
-              On the development side, I’m proficient in HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, SCSS, Supabase, and Firebase. I leverage artificial intelligence to accelerate code writing and streamline workflows. Additionally, I have experience setting up MCP servers, showcasing my versatility in technical setups.
+              On the engineering side, I build scalable applications using React, Next.js, TypeScript, and Supabase. I don’t just "write code" — I architect experiences. My workflow is deeply integrated with Artificial Intelligence and custom MCP server setups, allowing me to build and ship complex products like Spendly and TableXport with incredible velocity and technical precision.
             </p>
             <p>
-              Each project is an opportunity for growth, and I stay aligned with the latest trends to deliver modern, impactful solutions. Feel free to reach out for examples of my work!
+              I thrive in Founding Designer roles, taking products from a blank canvas in Figma to live deployments on Vercel. My focus is on shipping modern, scalable, and AI-integrated solutions that deliver real value. Let’s build your next big idea together.
             </p>
           </div>
         </div>

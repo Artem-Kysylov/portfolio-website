@@ -43,7 +43,7 @@ const HeroHello = () => {
                 initial='initial' 
                 animate='enter'
             >
-                I`m Artem, UI/UX designer and web developer based in Odessa, Ukraine
+                I’m Artem. I design, code, and ship interactive products.
             </motion.h1>
         </motion.div>
   )
